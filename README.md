@@ -1,1 +1,1 @@
-# Clsasscentral-scraper
+# Classcentral-scraper
