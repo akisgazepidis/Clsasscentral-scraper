@@ -4,7 +4,8 @@
 
 In this file i created a script which goes to Classcentral site(there are many web seminars that anyone can attend paid or unpaid) and it collects all the information about every web seminar that it is provided, gather it and creates a csv file.
 
-Information:
+### Information Scraped
+
 -Certificate availability 
 -Cost (free or paid)
 -Course link
