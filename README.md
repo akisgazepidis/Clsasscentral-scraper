@@ -6,14 +6,14 @@ In this file i created a script which goes to Classcentral site(there are many w
 
 ## Information Scraped
 
--Certificate availability 
--Cost (free or paid)
--Course link
--Course name
--Duration (usualy in weeks)
--Language (language that course is provided)
--Overview (The content of the course)
--Reviews (The number of reviews of customers)
--Site (The site's name)
--Stars (Number of stars)
--Sylabus (Main questions that this course will answer)
+1) Certificate availability 
+2) Cost (free or paid)
+3) Course link
+4) Course name
+5) Duration (usualy in weeks)
+6) Language (language that course is provided)
+7) Overview (The content of the course)
+8) Reviews (The number of reviews of customers)
+9) Site (The site's name)
+10) Stars (Number of stars)
+11) Sylabus (Main questions that this course will answer)
