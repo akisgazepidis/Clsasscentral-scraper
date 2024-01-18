@@ -1,19 +1,35 @@
-# Classcentral-scraper
+Classcentral Scraper
+============
 
-## Project Description
+Web Scraping for Online Courses Information
+-------------------------------------------
 
-In this file i created a script which goes to Classcentral site(there are many web seminars that anyone can attend paid or unpaid) and it collects all the information about every web seminar that it is provided, gather it and creates a csv file.
+### Overview
 
-## Information Scraped
+This Python script is designed to scrape information about online courses from the Class Central website. The script utilizes the BeautifulSoup library to parse HTML content and requests library to fetch web pages. The goal is to gather details about various online courses, including their names, links, languages, costs, certificate availability, duration, ratings, reviews, overview, and syllabus.
 
-1) Certificate availability 
-2) Cost (free or paid)
-3) Course link
-4) Course name
-5) Duration (usualy in weeks)
-6) Language (language that course is provided)
-7) Overview (The content of the course)
-8) Reviews (The number of reviews of customers)
-9) Site (The site's name)
-10) Stars (Number of stars)
-11) Sylabus (Main questions that this course will answer)
+### Prerequisites
+
+Make sure you have the following libraries installed before running the script:
+
+*   `requests`
+*   `bs4` (BeautifulSoup)
+*   `tqdm`
+*   `numpy`
+*   `pandas`
+*   `json`
+*   `datetime`
+*   `scipy`
+
+You can install these libraries using the following command:
+
+bashCopy code
+
+`pip install requests bs4 tqdm numpy pandas scipy`
+  
+
+### Notes
+
+*   The script handles connection errors and prints a message when the response status is not 200.
+*   Adjust the sleep durations based on your network speed to avoid rate limiting.
+*   The resulting dataset can be further analyzed or exported to a CSV file for external use.
